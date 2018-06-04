@@ -1,29 +1,62 @@
-enable re-use by others
-explain how the software developed within the project is expected to live on past the project's end date.
-we want sustainable && FAIR software
+Software Sustainability Plan
+============================
 
-Engineer will help implementing the below aspects:
+This document outlines the Netherlands eScience Center's recommendations
+regarding the creation of FAIR and sustainable software within the context of
+its projects.
 
-Aspects to consider for the duration of the project:
+Through its projects, the Netherlands eScience Center aims to achieve maximum
+impact, in the broadest sense of the word. From this, it follows that re-use by
+others must not only be facilitated, but even encouraged, such that the code
+that is developed within the project has a good chance to live on past the
+project's end date.
 
-- required (for FAIRness):
-    - permissive license
-    - public repository
-    - add persistent identifier (e.g. DOI from Zenodo) to the software
-    - README-like document that explains
-        - what problem the software addresses
-        - example usage
-    - Use domain relevant community standards/ open protocols and standards and file formats
-- recommended, for more FAIRness:
-    - explicit criteria relating to reproducibility like seeds if your algorithm
-      uses stochastic processes)
-    - automatic integration between doi issuer and software version control, e.g Zenodo-GitHub integration
-    - be findable by search engines and humans
-        - entry in software repository like RSD, KBLab, Biotools etc
-        - include software citations in papers including doi
-        - put in package manager when applicable to the language of choice (PyPI, gems, maven, conda, etc.)
-- recommended, for more sustainability (more compliance is better):
-    - https://bestpractices.coreinfrastructure.org/en/ gold criteria
+Naturally, there is a cost-benefit tradeoff to be made: not every piece of
+software is expected to be re-used, regardless of whether it complies with
+recommendations regarding the creation of FAIR and sustainable software.
+
+Furthermore, engineers from the Netherlands eScience Center can help implement
+the recommendations herein during the course of the project.
+
+The recommendations are classified into three groups: "minimum effort",
+"recommended practices", and "long term aspects". Each group is covered in more
+detail below.
+
+Minimum effort
+--------------
+
+- From the start of the project,
+    - the software should be available under a permissive license such as
+      Apache-2.0 (preferred), MIT, or BSD.
+    - the software should be developed in a publicly accessible repository such
+      as GitHub (preferred), GitLab, or BitBucket.
+    - use domain relevant open community standards, protocols, and file formats.
+- As soon as possible after the project starts,
+    - add a persistent identifier to the software. There are many flavors of
+      persistent identifier that can be used for software. We prefer to use
+      DOIs issued by Zenodo.
+    - include prominently published documentation explaining what problem the
+      software addresses, and showcasing the software with examples.
+
+Recommended practices
+---------------------
+
+- Make sure your software is findable by search engines and humans alike:
+    - by creating an entry in software repositories such as the Research
+      Software Directory (https://software.esciencecenter.nl), KBLab
+      (http://lab.kb.nl/), Biotools (https://bio.tools/), etc.
+    - by including software citations, including their DOIs, in any and all
+      papers for which the software has been significant
+    - by putting software in package managers such as PyPI, gems, maven, or
+      conda (as applicable given the language of choice)
+- Follow the best practices outlined here
+  https://bestpractices.coreinfrastructure.org/en/ (more compliance is better),
+  or from an equivalent list. Be transparent in the degree to which your
+  software is compliant by prominently publishing the results (e.g. as a
+  'badge').
+
+Long term aspects
+-----------------
 
 Aspects to consider after the project ends:
 

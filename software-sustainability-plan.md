@@ -1,30 +1,24 @@
 Software Sustainability Plan
 ============================
 
-This document outlines the Netherlands eScience Center's recommendations
-regarding the creation of FAIR and sustainable software within the context of
-its projects.
-
 Through the software developed within its projects, the Netherlands eScience
 Center aims to achieve maximum impact, in the broadest sense of the word. From
 this, it follows that re-use by others must not only be facilitated, but even
 encouraged, such that the code that is developed within the project has a good
-chance to live on past the project's end date.
+chance to live on past the project's end date. 
 
 Naturally, there is a cost-benefit tradeoff to be made: not every piece of
-software is expected to be re-used, regardless of whether it complies with
-recommendations regarding the creation of FAIR and sustainable software.
+software is expected to be re-used.
 
-Furthermore, engineers from the Netherlands eScience Center can help implement
-the recommendations herein during the course of the project.
-
-The recommendations are classified into three groups: "minimum effort",
-"recommended practices", and "long term aspects". Each group is covered in more
-detail below.
+The following questions are meant to make transparent the expected
+sustainability and impact of the software that is developed within our projects.
+Note that engineers from the Netherlands eScience Center can help with
+implementation during the course of the project. The questions are classified
+into three groups: "minimum effort", "recommended practices", and "long term
+aspects". Each group is covered in more detail below.
 
 Minimum effort
 --------------
-
 
 From the start of the project,
 

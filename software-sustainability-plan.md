@@ -25,52 +25,71 @@ detail below.
 Minimum effort
 --------------
 
-1. From the start of the project,
-    1. the software should be available under a permissive license such as
-      [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) (preferred),
-      [MIT](https://spdx.org/licenses/MIT.html), or
-      [BSD](https://spdx.org/licenses/BSD-3-Clause.html).
-    1. the software should be developed in a publicly accessible repository such
-      as [GitHub](https://github.com/) (preferred),
-      [GitLab](https://about.gitlab.com/), or
-      [BitBucket](https://bitbucket.org).
-    1. use domain relevant open community standards, protocols, and file formats.
-    1. cite software like you would cite a paper.
-1. As soon as possible after the project starts,
-    1. add a persistent identifier to the software. There are many flavors of
-      persistent identifier that can be used for software. We prefer to [use
-      DOIs issued by Zenodo](https://guides.github.com/activities/citable-code/).
-    1. include prominently published documentation that explains what problem the
-      software addresses; illustrate the software's intended usage with
-      examples.
+
+From the start of the project,
+
+1. will the software be available under a permissive license such as
+   [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) (preferred),
+   [MIT](https://spdx.org/licenses/MIT.html), or
+   [BSD](https://spdx.org/licenses/BSD-3-Clause.html)?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. will the software be developed in a publicly accessible repository such
+  as [GitHub](https://github.com/) (preferred),
+  [GitLab](https://about.gitlab.com/), or
+  [BitBucket](https://bitbucket.org)?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. will the software use domain-relevant open protocols, standards, and file formats?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. will you cite the software like you would cite a paper?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+
+
+As soon as possible after the project starts,
+
+1. will a persistent identifier such as [a DOI issued by Zenodo](https://guides.github.com/activities/citable-code/) be added to the software?
+    - [ ] Yes 
+    - [ ] No (warrants explanation)
+1. will documentation that explains what problem the software addresses be  prominently published?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. will the documentation illustrate the software's intended usage with
+  examples?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
 
 Recommended practices
 ---------------------
 
-1. Make sure your software is findable by search engines and humans alike:
-    1. by creating an entry in software repositories such as the Research
-      Software Directory (https://software.esciencecenter.nl), KBLab
-      (http://lab.kb.nl/), Biotools (https://bio.tools/), etc.
-    1. by putting software in package managers such as
-      [PyPI](https://pypi.org/),
-      [RubyGems](https://rubygems.org/),
-      [maven](https://search.maven.org/), or
-      [NPM](https://www.npmjs.com/) (as applicable given the language of choice)
-1. Follow the best practices outlined here
-  https://bestpractices.coreinfrastructure.org/en/ (more compliance is better),
-  or from an equivalent list. Be transparent in the degree to which your
-  software is compliant by prominently publishing the results (e.g. as a
-  'badge').
+1. Will the software have its own entry in software repositories such as the Research
+  Software Directory (https://software.esciencecenter.nl), KBLab
+  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. Will the software be put in package managers such as
+  [PyPI](https://pypi.org/),
+  [RubyGems](https://rubygems.org/),
+  [maven](https://search.maven.org/), or
+  [NPM](https://www.npmjs.com/) (as applicable given the language of choice)?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. For your software, will you fill in [this checklist](https://bestpractices.coreinfrastructure.org/en/) or an equivalent one?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
+1. Will you prominently post the results from the abovementioned checklist, for example as a 'badge' in the README?
+    - [ ] Yes
+    - [ ] No (warrants explanation)
 
 Long term aspects
 -----------------
 
-Aspects to consider for after the project ends:
+After the project ends,
 
-1. describe what support will be available for the package
-1. What is the package's bus factor?
-1. How many external contributors are there?
-1. what funding/ in-kind contributions are available to maintain and support the package?
-1. What can be done to connect to existing communities?
+1. what will be the package's [bus factor](https://en.wikipedia.org/wiki/Bus_factor)?
+1. how many external contributors will there be?
+1. what funding/in-kind contributions will be available to maintain and support the package?
 
 

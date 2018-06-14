@@ -24,8 +24,9 @@ From the start of the project,
 
 1. will the software be available under a permissive license such as
    [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) (preferred),
-   [MIT](https://spdx.org/licenses/MIT.html), or
-   [BSD](https://spdx.org/licenses/BSD-3-Clause.html)?
+   [MIT](https://spdx.org/licenses/MIT.html),
+   [BSD](https://spdx.org/licenses/BSD-3-Clause.html) or 
+   GPL?
     - [ ] Yes
     - [ ] No (warrants explanation)
 1. will the software be developed in a publicly accessible repository such
@@ -34,43 +35,31 @@ From the start of the project,
   [BitBucket](https://bitbucket.org)?
     - [ ] Yes
     - [ ] No (warrants explanation)
-1. will the software use domain-relevant open protocols, standards, and file formats?
+1. will you adhere to the FORCE11 recommendations for citing software (https://doi.org/10.7717/peerj-cs.86; section _What software to cite_)?
     - [ ] Yes
     - [ ] No (warrants explanation)
-1. will you cite the software like you would cite a paper?
-    - [ ] Yes
-    - [ ] No (warrants explanation)
-
 
 As soon as possible after the project starts,
 
 1. will a persistent identifier such as [a DOI issued by Zenodo](https://guides.github.com/activities/citable-code/) be added to the software?
     - [ ] Yes 
     - [ ] No (warrants explanation)
-1. will documentation that explains what problem the software addresses be  prominently published?
+1. will the software have its own entry in software repositories such as the Research
+  Software Directory (https://software.esciencecenter.nl), KBLab
+  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
     - [ ] Yes
     - [ ] No (warrants explanation)
-1. will the documentation illustrate the software's intended usage with
-  examples?
+1. will the software have documentation targeting new users illustrating the
+   software's intended usage?
     - [ ] Yes
     - [ ] No (warrants explanation)
 
 Recommended practices
 ---------------------
 
-1. Will the software have its own entry in software repositories such as the Research
-  Software Directory (https://software.esciencecenter.nl), KBLab
-  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
-    - [ ] Yes
-    - [ ] No (warrants explanation)
-1. Will the software be put in package managers such as
-  [PyPI](https://pypi.org/),
-  [RubyGems](https://rubygems.org/),
-  [maven](https://search.maven.org/), or
-  [NPM](https://www.npmjs.com/) (as applicable given the language of choice)?
-    - [ ] Yes
-    - [ ] No (warrants explanation)
 1. For your software, will you fill in [this checklist](https://bestpractices.coreinfrastructure.org/en/) or an equivalent one?
+
+    _While more compliance is better, a 100% score is not usually expected._
     - [ ] Yes
     - [ ] No (warrants explanation)
 1. Will you prominently post the results from the abovementioned checklist, for example as a 'badge' in the README?
@@ -80,10 +69,7 @@ Recommended practices
 Long term aspects
 -----------------
 
-After the project ends,
-
-1. what will be the package's [bus factor](https://en.wikipedia.org/wiki/Bus_factor)?
-1. how many external contributors will there be?
-1. what funding/in-kind contributions will be available to maintain and support the package?
+1. What will you do _during the project_ to ensure that the software lives on 
+   past the project's end date?
 
 

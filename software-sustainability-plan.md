@@ -44,9 +44,9 @@ As soon as possible after the project starts,
 1. will a persistent identifier such as [a DOI issued by Zenodo](https://guides.github.com/activities/citable-code/) be added to the software?
     - [ ] Yes 
     - [ ] No (warrants explanation)
-1. will the software have its own entry in software repositories such as the Research
+1. will the software have its own entry in a software directory such as the Research
   Software Directory (https://software.esciencecenter.nl), KBLab
-  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
+  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant directory?
     - [ ] Yes
     - [ ] No (warrants explanation)
 1. will the software have documentation targeting new users illustrating the

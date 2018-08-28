@@ -1,21 +1,27 @@
 Software Sustainability Plan
 ============================
 
-Through the software developed within its projects, the Netherlands eScience
-Center aims to achieve maximum impact, in the broadest sense of the word. From
-this, it follows that re-use by others must not only be facilitated, but even
-encouraged, such that the code that is developed within the project has a good
-chance to live on past the project's end date. 
-
-Naturally, there is a cost-benefit tradeoff to be made: not every piece of
-software is expected to be re-used.
+For much of modern-day research, software plays a crucial part in turning the
+data into papers. It is therefore important to adhere to some best practices
+when developing research software, as it will help other researchers to better
+understand the intricacies of the analysis. This, in turn, will allow them to
+adopt the software into their own workflows, possibly even contributing to the
+software or expanding it.
 
 The following questions are meant to make transparent the expected
-sustainability and impact of the software that is developed within our projects.
-Note that engineers from the Netherlands eScience Center can help with
-implementation during the course of the project. The questions are classified
-into three groups: "minimum effort", "recommended practices", and "long term
-aspects". Each group is covered in more detail below.
+sustainability and impact of software as developed within Netherlands eScience
+Center projects. The questions are classified into three groups: "minimum
+effort", "recommended practices", and "long term aspects".
+Naturally, not all of the software is equally viable when it comes to potential
+reuse; research software typically consists of some generic components which
+could in principle be reused in other projects, which are then complemented by
+some other, non-reusable components with which the software is tailored to the
+problem at hand.
+Generally speaking, the 'minimum effort' should be made for the complete body of
+code, i.e. both the reusable and non-reusable parts.
+
+Finally, note that our engineers can help with implementation during the course
+of the project.
 
 Minimum effort
 --------------
@@ -44,24 +50,34 @@ As soon as possible after the project starts,
 1. will a persistent identifier such as [a DOI issued by Zenodo](https://guides.github.com/activities/citable-code/) be added to the software?
     - [ ] Yes 
     - [ ] No (warrants explanation)
+
+Recommended practices
+---------------------
+
+As soon as possible after the project starts,
+
 1. will the software have its own entry in software repositories such as the Research
   Software Directory (https://software.esciencecenter.nl), KBLab
   (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
     - [ ] Yes
     - [ ] No (warrants explanation)
-1. will the software have documentation targeting new users illustrating the
+
+1. will the software have documentation targeting new users that illustrates the
    software's intended usage?
     - [ ] Yes
     - [ ] No (warrants explanation)
 
-Recommended practices
----------------------
-
 1. For your software, will you fill in [this checklist](https://bestpractices.coreinfrastructure.org/en/) or an equivalent one?
 
-    _While more compliance is better, a 100% score is not usually expected._
+    _While more compliance is better, a 100% score is not usually expected. The
+    checklist mainly serves as guidance on what aspects of your code could be
+    better organized. Also, some sections of the checklist may be more relevant
+    than others: use your best judgement in choosing which rules to comply
+    with._
+
     - [ ] Yes
     - [ ] No (warrants explanation)
+
 1. Will you prominently post the results from the abovementioned checklist, for example as a 'badge' in the README?
     - [ ] Yes
     - [ ] No (warrants explanation)
@@ -69,7 +85,35 @@ Recommended practices
 Long term aspects
 -----------------
 
-1. What will you do _during the project_ to ensure that the software lives on 
-   past the project's end date?
+During the course of the project, engineers from the Netherlands eScience Center
+will help lay the groundwork for making the software sustainable, for example
+through implementing software engineering best practices. However, the
+sustainability of software past the project's end date is ultimately the
+reponsibility of the project's Principal Investigator, who may delegate it to,
+for example, the research team, or the research community at large. Due to its
+business model, the Netherlands eScience Center cannot typically sustain
+software past the project's end date.
 
+This section tries to answer the generic question: "What will you do _during the
+project_ to ensure that the software lives on past the project's end date?"
+
+Below are a few suggestions to get you started. Feel free to interpret the above
+question in the broadest sense.
+
+1. What efforts are being undertaken to create the critical mass necessary to
+   start building a community of users, promotors, or otherwise interested
+   parties around the software? For example,
+      - through publications in mainstream media such as blogs, newpaper articles,
+        YouTube videos, tweets, etc.
+      - through organizing workshops, hands-on user trainings
+1. Is there additional funding (in-kind or cash) that will be used to support
+   the project's software outputs?
+1. If the software is made available as a service, for how long will the service
+   be offered? Which party will host the service? How will this be made possible
+   financially?
+
+   _e.g. some services may be transferred to SURFsara, or another member of the
+   SURF family, either during the project or shortly after the project ends._
+
+1. Describe other aspects that promote the software's longevity.
 

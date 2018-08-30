@@ -60,7 +60,7 @@ As soon as possible after the project starts,
 
 1. will the software have its own entry in software repositories such as the Research
   Software Directory (https://software.esciencecenter.nl), KBLab
-  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant repository?
+  (http://lab.kb.nl/), Biotools (https://bio.tools/), or an other relevant directory?
     - [ ] Yes
     - [ ] No (warrants explanation)
 

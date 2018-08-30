@@ -1,12 +1,14 @@
 Software Sustainability Plan
 ============================
 
-For much of modern-day research, software plays a crucial part in turning the
-data into papers. It is therefore important to adhere to some best practices
-when developing research software, as it will help other researchers to better
-understand the intricacies of the analysis. This, in turn, will allow them to
-adopt the software into their own workflows, possibly even contributing to the
-software or expanding it.
+Today, software plays a crucial role in advancing and accelerating
+state-of-the-art academic research. It is therefore important to adhere to
+proven best practices when developing research software, as it will help avoid
+errors, improve maintenance and sustainability, while accelerating the overall
+development process. Also, it will help other researchers to better understand
+the intricacies of the software, and the analysis performed with it. This, in
+turn, will allow them to adopt the software into their own workflows, possibly
+even contributing to the software or expanding it.
 
 The following questions are meant to make transparent the expected
 sustainability and impact of software as developed within Netherlands eScience

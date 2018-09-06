@@ -11,6 +11,15 @@ important prequisite for reproducibility of the scientific results, and
 will allow them to adopt the software into their own workflows, possibly
 even contributing to the software or expanding it.
 
+
+To promote the practice of Open Science, and the principles of FAIR data and 
+FAIR software, the Netherlands eScience Center actively participates in the 
+[National Platform Open Science](https://openscience.nl). 
+In line with this initiative, the eScience Center strives to make the software
+developed in the projects it participates in to become freely and sustainably
+available, as much as possible, for reuse by other researchers. 
+
+
 The following questions are meant to make transparent the expected
 sustainability and impact of software as developed within Netherlands eScience
 Center projects. The questions are classified into three groups: "minimum
@@ -116,8 +125,9 @@ question in the broadest sense.
    be offered? Which party will host the service? How will this be made possible
    financially?
 
-   _e.g. some services may be transferred to SURFsara, or another member of the
-   SURF family, either during the project or shortly after the project ends._
+   _e.g. some services may be transferred to external parties such as SURFsara,
+   DANS, or an other suitable party, either during the project or shortly after
+   the project ends._
 
 1. Describe other aspects that promote the software's longevity.
 

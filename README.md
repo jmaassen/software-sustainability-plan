@@ -1,5 +1,4 @@
-Software Sustainability Plan
-============================
+# Netherlands eScience Center Software Sustainability Protocol
 
 Today, software plays a crucial role in advancing and accelerating
 state-of-the-art academic research. It is therefore important to adhere to
@@ -16,7 +15,11 @@ FAIR software, the Netherlands eScience Center actively participates in the
 [National Platform Open Science](https://openscience.nl). 
 In line with this initiative, the eScience Center strives to make the software
 developed in the projects it participates in to become freely and sustainably
-available, as much as possible, for reuse by other researchers. 
+available, as much as possible, for reuse by other researchers. To that end, we
+require applicants to submit a _Software Sustainability Plan_, i.e a document
+that makes explicit the applicant's intent regarding software sustainability.
+
+## Software Sustainability Plan
 
 The following questions are meant to make transparent the expected
 sustainability and impact of software as developed within Netherlands eScience
@@ -27,15 +30,14 @@ reuse; research software typically consists of some generic components which
 could in principle be reused in other projects, which are then complemented by
 some other, non-reusable components with which the software is tailored to the
 problem at hand.
-Generally speaking, at least the 'minimum effort' should be made for the
-complete body of code, i.e. both the reusable and non-reusable parts. For the
-potentially reusable parts, higher standards should be set.
+Generally speaking, at least the minimum effort should be made for the
+complete body of code, i.e. both the reusable and non-reusable parts (see section _Minimum effort_ below). For the
+potentially reusable parts, higher standards should be set (see section _Recommended practices_ below).
 
 Finally, note that our eScience Research Engineers can help with implementation
 during the course of the project.
 
-Minimum effort
---------------
+### Minimum effort
 
 From the start of the project,
 
@@ -62,8 +64,7 @@ As soon as possible after the project starts,
     - [ ] Yes 
     - [ ] No (warrants explanation)
 
-Recommended practices
----------------------
+### Recommended practices
 
 As soon as possible after the project starts,
 
@@ -93,8 +94,7 @@ As soon as possible after the project starts,
     - [ ] Yes
     - [ ] No (warrants explanation)
 
-Long term aspects
------------------
+### Long term aspects
 
 During the course of the project, engineers from the Netherlands eScience Center
 will help lay the groundwork for making the software sustainable, for example
@@ -129,3 +129,23 @@ question in the broadest sense.
 
 1. Describe other aspects that promote the software's longevity.
 
+## Contact, Submission, Review and Publication
+
+The Software Sustainability Plan should be submitted within 4 months after the
+proposal has been awarded funding. The eScience Center will approve the plan as
+soon as possible thereafter. Approval of the Software Sustainability Plan by the
+eScience Center is a condition for disbursement of the funding. The Software
+Sustainability Plan can be adjusted during the research.
+
+For more information on the contents of your Software Sustainability Plan,
+please contact the eScience Coordinator or eScience Research Engineer(s) as part
+of your research team.
+
+For submitting your Software Sustainability Plan, please send it by email to the
+eScience Coordinator in your project team. After submission, the eScience
+Coordinator will ask the software sustainability experts in the eScience Center
+to review your Software Sustainability Plan. They will either approve it, or
+propose adaptations if necessary. The final approved Software Sustainability
+Plan will be included in the set of project deliverables, and kept with all
+project administration. It will also be used as a reference in the Annual
+Project Review.
